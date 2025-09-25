@@ -5,7 +5,7 @@ import tkinter.font
 lotto_num = range(1,46)
 
 def buttonClick():
-    print(random.sample(lotto_num,6))
+    print(sorted(random.sample(lotto_num,6)))
 
 window = tkinter.Tk()
 window.title("lotto")
